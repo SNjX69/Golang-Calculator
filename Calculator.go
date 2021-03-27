@@ -18,7 +18,7 @@ func main() {
 	fmt.Print(" Type Your Choice  : ")
 
 	var input float64
-	fmt.Scanf("%f", &input)
+	fmt.Scanln(&input)
 
 	print("\n")
 
@@ -51,14 +51,14 @@ func main() {
 	time.Sleep(500000000 * 2)
 	fmt.Print(" Type The First Number : ")
 	var input2 float64
-	fmt.Scanf("%f", &input2)
+	fmt.Scanln(&input2)
 
 	print("\n\n")
 
 	time.Sleep(500000000 * 2)
 	fmt.Print(" Type The Second Number : ")
 	var input3 float64
-	fmt.Scanf("%f", &input3)
+	fmt.Scanln(&input3)
 
 	print("\n\n")
 
