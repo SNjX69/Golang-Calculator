@@ -23,7 +23,7 @@ func main() {
 	print("\n")
 
 	if input >= 4 {
-		print("Wrong Choice\n\n")
+		print(" Wrong Choice\n\n")
 
 		time.Sleep(500000000)
 		print("Programmed ")
@@ -49,21 +49,21 @@ func main() {
 	}
 
 	time.Sleep(500000000 * 2)
-	fmt.Print("Type The First Number : ")
+	fmt.Print(" Type The First Number : ")
 	var input2 float64
 	fmt.Scanf("%f", &input2)
 
 	print("\n\n")
 
 	time.Sleep(500000000 * 2)
-	fmt.Print("Type The Second Number : ")
+	fmt.Print(" Type The Second Number : ")
 	var input3 float64
 	fmt.Scanf("%f", &input3)
 
 	print("\n\n")
 
 	time.Sleep(500000000 * 2)
-	print("Result Is : ")
+	print(" Result Is : ")
 
 	if input == 0 {
 		output := input2 - input3
@@ -93,7 +93,7 @@ func main() {
 	}
 
 	time.Sleep(500000000)
-	print("Programmed ")
+	print(" Programmed ")
 
 	time.Sleep(500000000)
 	print("By ")
@@ -108,7 +108,7 @@ func main() {
 	print("Github : www.Github.com/SNjX69 \n\n")
 
 	time.Sleep(500000000)
-	print("Press Enter To Exit ")
+	print(" Press Enter To Exit ")
 
 	fmt.Scanln()
 }
